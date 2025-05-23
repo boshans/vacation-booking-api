@@ -9,7 +9,7 @@ The system allows users to:
 - Submit a booking request through a RESTful API
 - Store and validate customer and order data
 
-The front-end was pre-built in Angular and not modified as part of the assignment. The focus was on creating a robust and properly validated back-end service.
+The front-end was pre-built in Angular and not modified as part of the assignment. The focus was on creating a robust and properly validated back-end service. Therefore I have only uploaded what I can of the front-end, since there are just entirely too many files, in the thousands, to upload.
 
 ## 🧱 Technologies Used
 
