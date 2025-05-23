@@ -1,39 +1,28 @@
-# Vacation Booking API – Back-End Java Final Project
 
-This project was part of my final assessment for the Back-End Programming with Java course at WGU. It’s a Spring Boot application designed to serve as the backend for a travel agency’s vacation booking system.
+# D288FrontEnd
 
-## ✈️ Overview
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
 
-The system allows users to:
-- Browse vacation packages and excursions
-- Submit a booking request through a RESTful API
-- Store and validate customer and order data
+## Development server
 
-The front-end was pre-built in Angular and not modified as part of the assignment. The focus was on creating a robust and properly validated back-end service.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## 🧱 Technologies Used
+## Code scaffolding
 
-- Spring Boot
-- Spring Data JPA
-- Hibernate ORM
-- MySQL
-- Lombok
-- JSR-303 (Bean Validation)
-- REST APIs
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## 🔗 Key Components
+## Build
 
-- **Entities:** Customer, Cart, CartItem, Vacation, Excursion, Division, Country
-- **Services:** CheckoutService with UUID-based order tracking
-- **Validation:** Full field-level validation using annotations like `@NotBlank`, `@Valid`, etc.
-- **Database:** Mapped to pluralized table names, aligned to existing schema
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## 📸 Final Submission Requirements
+## Running unit tests
 
-- Order submitted through the Angular front end
-- Confirmed database entries in MySQL Workbench
-- Screenshot evidence of API and front-end integration
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## 📝 Notes
+## Running end-to-end tests
 
-This academic project is presented with permission under WGU guidelines.
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
